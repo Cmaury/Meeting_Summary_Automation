@@ -13,8 +13,8 @@ from datetime import datetime
 def main():
     ######## CONFIGURATION ########
     INPUT_LEGISLATION_FOLDER = Path("legislations")
-    START_DAY = datetime.strptime("20250331", "%Y%m%d")
-    END_DAY = datetime.strptime("20250404", "%Y%m%d")
+    START_DAY = datetime.strptime("20250428", "%Y%m%d")
+    END_DAY = datetime.strptime("20250502", "%Y%m%d")
     TAB_XPATH = '//li[contains(@class, "rtsLI") and contains(@class, "rtsLast")]//span[contains(@class, "rtsTxt") and text()="Text"]/ancestor::li'
     TEXT_ID = "ctl00_ContentPlaceHolder1_pageText"
     ###############################
