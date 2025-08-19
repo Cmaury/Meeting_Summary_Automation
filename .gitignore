@@ -1,3 +1,4 @@
 .env
 tempy.py
 *.DS_Store
+*.wav

@@ -4,6 +4,7 @@ import json
 import csv
 from pathlib import Path
 import os
+from datetime import datetime
 
 
 
@@ -14,12 +15,15 @@ def main():
     CLAUDE_KEY = os.getenv("CLAUDE_KEY")
     INPUT_PROCESSED_AGENDA_FOLDER = Path("agendas_processed")
     OUTPUT_AGENDA_SEGMENTS_FOLDER = Path("agenda_segments")
+    START_DAY = datetime.strptime("20250331", "%Y%m%d")
+    END_DAY = datetime.strptime("20250404", "%Y%m%d")
+    SEGMENTATION_MODEL = "claude-3-5-haiku-20241022"
     ################################
 
 
     client = anthropic.Anthropic(api_key=CLAUDE_KEY)
 
-    segment_all_agendas(INPUT_PROCESSED_AGENDA_FOLDER, OUTPUT_AGENDA_SEGMENTS_FOLDER, client)
+    segment_all_agendas(INPUT_PROCESSED_AGENDA_FOLDER, OUTPUT_AGENDA_SEGMENTS_FOLDER, START_DAY, END_DAY, SEGMENTATION_MODEL, client)
 
 
 
@@ -53,9 +57,9 @@ Agenda:
 
 
 
-def claude_segment(agenda_text: str, client):
+def claude_segment(agenda_text: str, segmentation_model: str, client):
     """
-    Claude prompt wrapper function.
+    Prompts Claude to segment an agenda into agenda topics.
 
     Parameters:
     - agenda_text (str): String containing extracted text from meeting agenda.
@@ -63,7 +67,7 @@ def claude_segment(agenda_text: str, client):
     """
     prompt = agenda_segmentation_prompt(agenda_text)
     response = client.messages.create(
-        model="claude-3-5-haiku-20241022",
+        model=segmentation_model,
         max_tokens=8192,
         temperature=0,
         messages=[{"role": "user", "content": prompt}]
@@ -97,24 +101,34 @@ def save_json_segments_to_csv(json_string: str, output_path: Path):
 
 
 
-def segment_all_agendas(input_folder: Path, output_folder: Path, client):
+def segment_all_agendas(input_folder: Path, output_folder: Path, start_day: datetime, end_day: datetime, segmentation_model: str, client):
     """
     Prompts Claude to segment TXT meeting agendas and saves segments as CSV.
 
     Parameters:
     - input_folder (Path): Path object of folder with TXT agenda files.
     - output_folder (Path): Path object of folder where CSV segment files will be saved.
+    - start_day (datetime): datetime object of earliest day in timeframe.
+    - end_day (datetime): datetime object of latest day in timeframe. 
+    - segmentation_model (str): string object of Claude model alias to segment.
     - client: Claude API client. 
     """
     output_folder.mkdir(parents=True, exist_ok=True)
 
-    for file_path in input_folder.rglob("*.txt"):
+    for file_path in sorted(input_folder.rglob("*.txt")):
+        meeting_date = str(file_path.name).split("_")[0]
+        meeting_datetime = datetime.strptime(meeting_date, "%Y%m%d")
+
+        # skip, out of time frame
+        if not (start_day <= meeting_datetime <= end_day):
+            continue
+
         print(f"Segmenting {file_path}")
         file_stem = file_path.stem
         output_path = output_folder / f"{file_stem}.csv"
 
         text = file_path.read_text(encoding='utf-8')
-        segments_json = claude_segment(text, client)
+        segments_json = claude_segment(text, segmentation_model, client)
         save_json_segments_to_csv(segments_json, output_path)
 
 

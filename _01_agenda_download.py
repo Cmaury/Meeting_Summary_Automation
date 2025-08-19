@@ -2,33 +2,45 @@ import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 from pathlib import Path
+from datetime import datetime
 
 
 
 def main():
     ######## CONFIGURATION ########
-    INPUT_URLS_FOLDER = Path("__input_urls")
+    INPUT_URLS_FOLDER = Path("__input_legistar_urls")
     OUTPUT_RAW_AGENDA_FOLDER = Path("agendas_raw")
+    START_DAY = datetime.strptime("20250331", "%Y%m%d")
+    END_DAY = datetime.strptime("20250404", "%Y%m%d")
     LINK_ID = "ctl00_ContentPlaceHolder1_hypMinutes"
     ###############################
 
-    download_agendas_from_urls(INPUT_URLS_FOLDER, OUTPUT_RAW_AGENDA_FOLDER, LINK_ID)
+    download_agendas_from_urls(INPUT_URLS_FOLDER, OUTPUT_RAW_AGENDA_FOLDER, START_DAY, END_DAY, LINK_ID)
 
 
 
-def download_agendas_from_urls(input_folder: Path, output_folder: Path, link_id: str):
+def download_agendas_from_urls(input_folder: Path, output_folder: Path, start_day: datetime, end_day: datetime, link_id: str):
     """
     Downloads agendas from city council website and saves them as PDF files.
 
     Parameters:
     - input_folder (Path): Path object of folder with txt files containing Legistar Meeting Details URL.
     - output_folder (Path): Path object of folder where PDF files will be saved.
+    - start_day (datetime): datetime object of earliest day in timeframe.
+    - end_day (datetime): datetime object of latest day in timeframe. 
     - link_id (str): ID of element with link to downloadable PDF on Meeting Details website.
     """
     output_folder.mkdir(parents=True, exist_ok=True)
 
     # iterate through each meeting
-    for txt_file in input_folder.glob("*.txt"):
+    for txt_file in sorted(input_folder.glob("*.txt")):
+        meeting_date = str(txt_file.name).split("_")[0]
+        meeting_datetime = datetime.strptime(meeting_date, "%Y%m%d")
+
+        # skip, out of time frame
+        if not (start_day <= meeting_datetime <= end_day):
+            continue
+
         with open(txt_file, "r", encoding="utf-8") as f:
             page_url = f.read().strip()
 

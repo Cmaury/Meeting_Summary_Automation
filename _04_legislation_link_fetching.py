@@ -4,32 +4,43 @@ from pathlib import Path
 from urllib.parse import urljoin
 import csv
 import re
+from datetime import datetime
 
 
 def main():
     ######## CONFIGURATION ########
-    INPUT_URL_FOLDER = Path("__input_urls")
+    INPUT_URL_FOLDER = Path("__input_legistar_urls")
     OUTPUT_LEGISLATION_FOLDER = Path("legislations")
+    START_DAY = datetime.strptime("20250331", "%Y%m%d")
+    END_DAY = datetime.strptime("20250404", "%Y%m%d")
     TABLE_ID = "ctl00_ContentPlaceHolder1_gridMain_ctl00"
     ###############################
 
 
-    fetch_links(INPUT_URL_FOLDER, OUTPUT_LEGISLATION_FOLDER, TABLE_ID)
+    fetch_links(INPUT_URL_FOLDER, OUTPUT_LEGISLATION_FOLDER, START_DAY, END_DAY, TABLE_ID)
 
 
-def fetch_links(input_folder: Path, output_folder: Path, table_id: str):
+def fetch_links(input_folder: Path, output_folder: Path, start_day: datetime, end_day: datetime, table_id: str):
     """
     Finds and stores the URLs to legislations for each meeting in input folder and stores as CSV in output folder.
 
     Parameters:
     - input_folder (Path): Path object of folder containing URLs to Legistar Meeting Details webpage.
-    - output_folder (Path): Path object of folder where CSV of legislation URLs will be saved to.
+    - output_folder (Path): Path object of folder where CSV of legislation URLs will be saved.
+    - start_day (datetime): datetime object of earliest day in timeframe.
+    - end_day (datetime): datetime object of latest day in timeframe. 
     - table_id (str): str object of element ID containing table of items (bills, proclamations, etc) on Meeting Details webpage.
     """
     output_folder.mkdir(exist_ok=True, parents=True)
 
     # iterate through each TXT file
-    for txt_file in input_folder.glob("*.txt"):
+    for txt_file in sorted(input_folder.glob("*.txt")):
+        meeting_date = str(txt_file.name).split("_")[0]
+        meeting_datetime = datetime.strptime(meeting_date, "%Y%m%d")
+
+        # skip, out of time frame
+        if not (start_day <= meeting_datetime <= end_day):
+            continue
 
         # extract url from TXT file
         with open(txt_file, "r", encoding="utf-8") as f:

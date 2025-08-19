@@ -1,0 +1,33 @@
+rank,label,headline,score_mu,score_sigma,score_95ci
+1,H8,Pittsburgh City Council asks Pennsylvania governor to declare trash emergency and send state resources to help clean up the city.,45.03,2.8,5.48
+2,H10,"Pittsburgh City Council refers $37,000 federal grant to committee that would fund police overtime to investigate old sexual assault cases.",42.37,2.49,4.88
+3,H29,Pittsburgh City Council votes to cancel the Urban Redevelopment Authority's planned takeover of a 15th Ward property.,41.79,2.45,4.81
+4,H13,City Council interviews Janet Evans for reappointment to Pittsburgh Housing Authority board after she describes property conditions declining and her work organizing tenant councils.,38.95,2.31,4.53
+5,H9,Pittsburgh residents raise concerns about public transit funding and city budget spending during public comment period.,37.42,2.07,4.07
+6,H11,"Pittsburgh City Council approves $316,367 settlement for Finland Street Pedestrian Bridge lawsuit and $32,750 contract for police recruitment videos.",36.72,2.05,4.02
+7,H12,"Pittsburgh City Council interviews Aftyn Giles for reappointment to Clean Pittsburgh Commission, discussing city's worsening litter crisis and need for dedicated cleanup crews.",35.57,2.02,3.96
+8,H24,"Pittsburgh City Council approved a $450,000 state grant to install 96 decorative lights along an eight-block stretch of Penn Avenue in East Liberty.",35.42,1.93,3.78
+9,H1,Pittsburgh City Council hears report showing traffic deaths dropped from 20 to 17 in first year of Vision Zero safety program.,32.22,2.42,4.74
+10,H22,City council approves P-card purchases without discussion.,31.85,1.81,3.54
+11,H28,"Pittsburgh City Council approves paying $72,500 in overdue bills to state utility commission for damage prevention calls.",31.69,1.89,3.7
+12,H25,"Pittsburgh City Council approves $115,170 increase for Fort Pitt Park design work, raising total contract to $415,170.",31.66,1.85,3.62
+13,H30,"Pittsburgh City Council approves sale of two Hill District lots to the Pittsburgh Land Bank for $16,290.",31.46,1.85,3.63
+14,H14,City council waives meeting rules to start with only five members present.,29.93,1.77,3.47
+15,H26,Pittsburgh City Council approves easement allowing Duquesne Light to install six utility poles and overhead wires on city property at no cost to the city.,29.04,1.84,3.6
+16,H32,"Pittsburgh City Council approves sale of North Aiken Avenue lot from redevelopment authority to land bank for $48,500.",28.02,1.88,3.68
+17,H21,"City council approves $18,509 in invoices for community programs, police equipment, and department expenses.",27.77,1.78,3.49
+18,H23,City council delays vote on agreement to let college students train with emergency medical services for three weeks.,26.79,1.83,3.59
+19,H16,"City council delays vote on canceling $40,000 sale of house on Bodkin Street for one week.",26.08,1.77,3.47
+20,H20,"City Council delays vote on $33,292 budget transfer for employee tuition reimbursement for two weeks.",25.32,1.81,3.54
+21,H7,"Pittsburgh City Council declares April 6-12, 2025 as National Crime Victims' Rights Week to honor survivors and raise awareness about victim services.",24.35,1.88,3.68
+22,H6,"Pittsburgh City Council declares April 12, 2025 as ""412Thrive Day"" to honor the nonprofit that supports breast cancer patients and survivors.",22.99,1.9,3.72
+23,H31,"Pittsburgh City Council approves sale of city-owned lot on Island Avenue to Island Avenue Holdings for $3,600.",22.59,1.93,3.78
+24,H27,"Pittsburgh City Council approves $52,962 payment for one-year Pennsylvania Municipal League membership.",20.66,2.08,4.09
+25,H18,"Pittsburgh City Council delays vote on selling city-owned vacant lot on Itin Street for $3,755.",20.5,2.02,3.96
+26,H19,"Pittsburgh City Council approves $13,647 payment to Allegheny County for sidewalk heating system damaged by city traffic workers.",20.46,2.02,3.95
+27,H17,"City council delays decision on $33,292 tuition reimbursement for Mohammed Burny until April.",18.06,2.12,4.15
+28,H5,"Pittsburgh City Council declares April 5, 2025 as ""Dr. Christine White-Taylor Day"" to honor retired educator's 32-year career.",17.24,2.14,4.2
+29,H4,City council votes to change their meeting agenda.,14.85,2.28,4.48
+30,H15,"Two residents spoke during public comment, with one criticizing media portrayal of the mayor and another making accusations against city officials.",13.38,2.64,5.18
+31,H2,Pittsburgh City Council begins regular meeting with nine members present.,9.29,2.72,5.33
+32,H3,City council opens meeting with Pledge of Allegiance and moment of silence.,8.34,3.04,5.95

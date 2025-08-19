@@ -1,0 +1,64 @@
+rank,label,headline,score_mu,score_sigma,score_95ci
+1,H50,Pittsburgh City Council holds public hearing on bill to reduce minimum lot sizes across residential neighborhoods to allow more housing development.,50.2,2.24,4.38
+2,H57,Pittsburgh City Council schedules public hearing on proposal to let workers earn more paid sick leave hours.,45.72,1.75,3.42
+3,H56,"Pittsburgh City Council approves $40,000 contract with law firm to handle immigration legal services.",45.11,1.74,3.42
+4,H36,"Pittsburgh City Council approves $37,000 grant to fund police overtime for investigating old sexual assault cases and create a soft interview room.",44.37,1.75,3.43
+5,H52,City residents criticize mayor's accessibility and call for job training programs to reduce homelessness and repeat offenses during public comment period.,43.66,1.71,3.36
+6,H1,"Pittsburgh Water pauses four flood control projects citywide due to budget constraints, including Four Mile Run project that has flooded neighborhood for over a decade.",43.37,2.64,5.17
+7,H48,"City council approves special meeting on police, fire and EMS equipment after ambulance broke down responding to cardiac arrest call.",43.22,1.74,3.4
+8,H34,"Pittsburgh City Council approves selling 14 vacant lots in Larimer neighborhood to community group for $26,677 to settle lawsuits.",40.29,1.54,3.02
+9,H18,Pittsburgh City Council introduces bill allowing residents to plant native gardens and pollinator habitats instead of traditional grass lawns.,39.68,1.56,3.06
+10,H38,"Pittsburgh City Council approves applying for $250,000 state grant to fix Emerald View Trail with city matching $250,844.",38.82,1.51,2.96
+11,H40,Pittsburgh City Council approves new rules limiting where residential parking permit signs can be posted to mainly residential neighborhoods.,38.37,1.5,2.93
+12,H7,Pittsburgh City Council declares National Community Development Week and asks Congress to increase federal housing funding for low-income residents.,38.31,1.76,3.46
+13,H61,Pittsburgh City Council approves deal for developer to build and maintain six free bus shelters in Hazelwood.,38.06,1.5,2.94
+14,H41,Pittsburgh City Council unanimously approved expanding the residential permit parking program to more streets in the South Side Flats neighborhood.,37.64,1.5,2.95
+15,H19,Pittsburgh City Council introduces ordinance to let residents plant natural landscapes without violating weed height rules.,37.53,1.5,2.95
+16,H47,"Pittsburgh City Council approves selling underground tunnel rights to ALCOSAN for $8,200 across nine city properties.",37.4,1.5,2.94
+17,H15,"Pittsburgh City Council refers resolution to hire five companies for up to $750,000 each annually to provide special events services.",35.49,1.41,2.77
+18,H59,City council approves P-card purchases without discussion.,35.11,1.38,2.71
+19,H16,Pittsburgh City Council refers resolution to committee allowing temporary construction easements on city property for Smithfield Street repairs.,34.89,1.43,2.81
+20,H44,"Pittsburgh City Council approves sponsorship deals worth over $600,000 for the Great Race through 2027.",34.5,1.43,2.8
+21,H20,Pittsburgh City Council designates Donny's Place on Herron Avenue as a historic structure despite opposition from the property owner and negative recommendations from city commissions.,34.38,1.47,2.88
+22,H46,Pittsburgh City Council approves sewage plan for new Walnut McKee Apartments at 296 McKee Place at no cost to the city.,34.05,1.47,2.88
+23,H32,"Pittsburgh City Council approves $80,000 settlement payment to Angelina Priore to resolve lawsuit filed in 2022.",33.26,1.45,2.84
+24,H63,Pittsburgh City Council approves transferring city-owned property at 219 Reifert Street to the Pittsburgh Land Bank for $1.,33.18,1.45,2.85
+25,H60,Pittsburgh City Council approves deal for University of Pittsburgh to pay for extra trash pickup in Oakland during student move-in and move-out periods.,32.13,1.43,2.8
+26,H39,City council accepts land use committee's positive recommendation on unspecified development proposal.,32.01,1.41,2.77
+27,H42,"City council accepts committee's positive recommendation on recreation, youth, and senior services matters.",31.87,1.41,2.76
+28,H31,"Pittsburgh City Council voted to cancel the $40,000 sale of a house at 136 Bodkin Street and refund the buyer's deposit.",30.38,1.43,2.8
+29,H10,City residents criticize council members for not paying attention during public comments and debate mayoral race funding sources.,29.25,1.4,2.75
+30,H43,"Pittsburgh City Council approves Dollar Bank's $30,000 annual sponsorship deal for Cinema in the Park movie series through 2027.",28.41,1.45,2.84
+31,H5,Pittsburgh City Council declares April 2025 as Fair Housing Month to promote equal housing opportunities for all residents.,28.4,1.47,2.88
+32,H58,"City council approves $33,467 in invoices including K9 boarding, police training, and emergency services coverage.",28.15,1.46,2.86
+33,H17,Pittsburgh City Council refers resolution to allow Riverlife to connect its programming barge to city-owned Allegheny Landing Dock at no cost to the city.,28.1,1.43,2.8
+34,H55,"City Council delays vote on $33,292 budget transfer for employee tuition reimbursement for six weeks.",27.98,1.46,2.86
+35,H23,City council delays appointment of Terri Minor Spencer to Gender Equity Commission pending interview process.,26.18,1.46,2.87
+36,H22,City council delays vote on Audra Mitchell's appointment to Gender Equity Commission pending interview process.,25.98,1.45,2.85
+37,H12,Pittsburgh City Council approves sewage plan revision to allow four sewer connections for new development on Hermitage Street.,25.97,1.43,2.81
+38,H37,City council accepts public works committee's positive recommendation on unspecified infrastructure matter.,25.51,1.45,2.83
+39,H24,City Council delays appointment of Nikkole Terney to Gender Equity Commission pending interview process.,25.26,1.5,2.93
+40,H13,"Council member Kail-Smith proposes moving $10,000 from council salaries to city clerk's office for professional services.",24.97,1.47,2.88
+41,H33,"City council approves $8,301 payment to woman whose car was damaged in crash with police vehicle.",24.65,1.54,3.01
+42,H11,Pittsburgh City Council moves forward with plan to allow live-streaming of hockey games at Marmaduke Park at no cost to the city.,24.13,1.48,2.9
+43,H27,City council receives report showing first quarter premium pay spending from city controller.,22.77,1.59,3.12
+44,H8,"Pittsburgh City Council declares April 22, 2025 as ""Take a Father to School Day"" to support the 27th annual event encouraging fathers to visit Pittsburgh Public Schools.",22.59,1.45,2.84
+45,H25,City council delays appointing Crystal Wamalwa to Gender Equity Commission pending interview.,22.53,1.55,3.04
+46,H35,City council accepts public safety committee's positive recommendation from April meeting.,22.04,1.62,3.18
+47,H9,"Pittsburgh City Council declares April 25, 2025 as ""Charles Chuck Cooper Day"" to honor the first African American drafted into the NBA.",21.9,1.49,2.93
+48,H14,"Pittsburgh City Council approves paying the New Pittsburgh Courier $6,158 for publishing legal ads about city property cases.",20.7,1.65,3.23
+49,H21,Pittsburgh City Council refers proposal to loan city-owned Stephen Foster statue to Museum of Contemporary Art to committee.,20.54,1.62,3.17
+50,H30,City council approves Finance and Law Committee's April 16 recommendations.,19.67,1.66,3.26
+51,H53,"Pittsburgh City Council delays decision on $33,292 tuition reimbursement for Mohammed Burny for six weeks.",19.25,1.61,3.15
+52,H29,Council member proposes new rules to automatically assign committee chairs as backup meeting leaders when president and vice president are absent.,19.07,1.6,3.14
+53,H54,"Pittsburgh City Council delays vote on selling city-owned vacant lot on Itin Street for $3,755 for one week.",18.8,1.64,3.22
+54,H28,City council approves extra pay for two transportation department employees filling temporary roles.,18.09,1.81,3.55
+55,H6,"Pittsburgh City Council declares April 24, 2025 as ""Alpha Kappa Alpha Sorority Day"" to honor the group's regional conference bringing over 2,600 members to the city.",17.03,1.73,3.4
+56,H62,City council approves deal allowing Team Pittsburgh to live-stream deck hockey games at Marmaduke Park for free.,15.31,1.9,3.73
+57,H4,City council votes to waive meeting rules at 10:31.,12.96,1.93,3.78
+58,H51,City council meeting begins with five of nine members present for April 23 session.,11.04,2.22,4.35
+59,H45,City council receives and files committee report on intergovernmental and educational affairs with positive recommendation.,10.11,2.09,4.09
+60,H2,Pittsburgh City Council begins regular meeting with nine members present on April 15th.,9.32,2.19,4.29
+61,H26,City Council receives weekly grants office status update and files it without discussion.,9.17,2.34,4.59
+62,H3,City council opens meeting with Pledge of Allegiance and moment of silence.,7.36,2.5,4.9
+63,H49,City council approves meeting minutes and adjourns.,3.52,2.93,5.75

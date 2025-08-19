@@ -1,0 +1,44 @@
+rank,label,headline,score_mu,score_sigma,score_95ci
+1,H41,Pittsburgh City Council approves changes to Bakery Square zoning that require 15% affordable housing in new apartment buildings with 20 or more units.,47.6,1.85,3.62
+2,H23,Pittsburgh City Council approves 56 additional professional services contracts worth up to $1.5 million each annually.,45.72,1.73,3.4
+3,H24,"Pittsburgh City Council approves 56 additional professional services contracts worth up to $750,000 each annually.",44.71,1.7,3.33
+4,H7,City council hears public comments on minority hiring for construction contracts and support for citywide inclusionary housing.,44.6,2.19,4.3
+5,H34,Pittsburgh City Council schedules briefings on affordable housing strategies and conflict of interest policies for public grants.,44.19,1.66,3.26
+6,H43,Pittsburgh City Council approves agreement with state transportation department to share road and bridge repair services at no cost to the city.,43.11,1.67,3.27
+7,H40,"Pittsburgh City Council approves accepting a $250,000 state grant for the Smallman Street Complete Street Project, reducing the original $2.3 million request.",42.65,1.67,3.27
+8,H33,Pittsburgh City Council approves deal letting Downtown Partnership build and maintain Market Square improvements at no cost to the city.,42.16,1.64,3.22
+9,H38,"Pittsburgh City Council approves $316,367 settlement from company that damaged Finland Street Pedestrian Bridge so badly it had to be torn down.",40.61,1.65,3.23
+10,H37,City council hears public complaints about members not listening to speakers and concerns about campaign donations from companies with many court cases.,40.61,1.65,3.23
+11,H21,Pittsburgh City Council receives annual report on 2024 affordable housing bond performance from redevelopment authority.,40.22,1.59,3.11
+12,H31,"Pittsburgh City Council approves $125,000 to buy recycling trucks using state environmental grant money.",39.45,1.62,3.17
+13,H30,"City council approves $125,000 transfer to buy recycling trucks using state grant money.",38.79,1.61,3.16
+14,H10,Pittsburgh City Council refers resolution to committee that would cancel the redevelopment authority's planned acquisition of a 15th Ward property.,36.78,1.63,3.2
+15,H15,"Pittsburgh City Council reduces Penn Avenue lighting project grant from $461,856 to $450,000 and authorizes spending the state funds.",35.98,1.58,3.1
+16,H39,"Pittsburgh City Council approves $32,750 contract for company to create police recruitment videos using grant money.",35.84,1.63,3.19
+17,H35,City council withdraws Jesse DiRenna's appointment to the infrastructure commission after mayor asks to rescind nomination.,35.35,1.61,3.16
+18,H9,"Pittsburgh City Council approves paying $72,500 in overdue bills to state utility commission for damage prevention calls.",34.75,1.57,3.08
+19,H32,"Pittsburgh City Council approves $17,204 payment to renew membership in Chartiers Valley flood control group for 2025.",34.43,1.63,3.2
+20,H42,Pittsburgh City Council delays vote on agreement with transit agency for new public steps on Downing Street for six weeks.,33.7,1.63,3.19
+21,H27,"Pittsburgh City Council approves $35,025 contract with United Rentals for portable restrooms at city parks.",33.69,1.62,3.18
+22,H20,Pittsburgh City Council accepts $500 donation from Cultural Trust to buy smoke detectors for residents.,33.22,1.62,3.18
+23,H16,"Pittsburgh City Council refers resolution to increase Fort Pitt Park design contract by $115,170 to committee for review.",32.43,1.6,3.14
+24,H13,"Pittsburgh City Council approves sale of North Aiken Avenue lot from redevelopment authority to land bank for $48,500.",31.54,1.6,3.13
+25,H11,"Pittsburgh City Council approves sale of two vacant lots on Erin Street to the Pittsburgh Land Bank for $16,290.",31.16,1.58,3.09
+26,H17,"Pittsburgh City Council moves $33,292 from salaries to employee benefits to cover tuition reimbursement costs.",30.31,1.69,3.31
+27,H12,"Pittsburgh council approves sale of city-owned lot on Island Avenue to private company for $3,600.",29.55,1.62,3.17
+28,H25,"City council approves $13,500 purchase of MaxScan tool to repair public works vehicles.",28.73,1.72,3.37
+29,H22,City Council approves Finance and Law Committee's March 26 recommendations.,27.63,1.88,3.68
+30,H8,"Pittsburgh City Council introduces resolution to pay $52,962 for one-year Pennsylvania Municipal League membership.",27.6,1.59,3.12
+31,H26,"Pittsburgh City Council approves $13,500 purchase of diagnostic tool to repair city vehicles.",27.18,1.88,3.68
+32,H14,"Pittsburgh Council considers paying Allegheny County $13,647 after city workers damaged courthouse sidewalk heating system while installing signs.",26.8,1.82,3.56
+33,H29,"Pittsburgh City Council approves $11,424 contract with Cycom Data Systems to maintain the Law Department's case management software system.",24.27,2.06,4.05
+34,H28,"City Council approves $11,424 contract with SciComm Data Systems to maintain law department's computer software for one year.",23.14,2.08,4.07
+35,H18,Pittsburgh City Council approves Isabella Gross for four-year term on Shade Tree Commission.,22.67,2.05,4.03
+36,H5,"Pittsburgh City Council declares April 1, 2025 as ""Delta Sigma Theta Sorority Day"" to honor the local chapter's nearly century of community service.",21.25,1.85,3.64
+37,H6,"Pittsburgh City Council declares April 2, 2025 as ""Shamika Zyhier Day"" to honor nursing professor's 20 years of healthcare service.",19.78,2.12,4.15
+38,H4,"Pittsburgh City Council declares April 3, 2025 as ""Michele Wazny Day"" to honor librarian's 54 years of service.",18.99,1.94,3.8
+39,H3,City council votes to change their meeting agenda.,15.19,2.19,4.3
+40,H19,City Council receives weekly grants office status update and files report.,14.55,3.14,6.15
+41,H1,Pittsburgh City Council begins April 1st meeting with eight members present and one absent.,10.18,2.61,5.11
+42,H2,City council opens meeting with Pledge of Allegiance and moment of silence.,9.44,2.85,5.59
+43,H36,Pittsburgh City Council committee meeting begins with five members present and two absent.,6.04,3.76,7.36
