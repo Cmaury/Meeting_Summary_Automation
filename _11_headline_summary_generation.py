@@ -14,8 +14,8 @@ def main():
     CLAUDE_KEY = os.getenv("CLAUDE_KEY")
     INPUT_AGENDA_SEGMENTS_FOLDER = Path("agenda_segments")
     OUTPUT_REPORTS_FOLDER = Path("reports")
-    START_DAY = datetime.strptime("20250331", "%Y%m%d")
-    END_DAY = datetime.strptime("20250404", "%Y%m%d")
+    START_DAY = datetime.strptime("20250428", "%Y%m%d")
+    END_DAY = datetime.strptime("20250502", "%Y%m%d")
     HEADLINE_MODEL = "claude-sonnet-4-20250514"
     SUMMARY_MODEL = "claude-sonnet-4-20250514"
     RATE_LIMIT_SECONDS = 10

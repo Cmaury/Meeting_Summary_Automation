@@ -18,8 +18,8 @@ def main():
     CLAUDE_KEY = os.getenv("CLAUDE_KEY")
     INPUT_REPORTS_FOLDER = Path("reports")
     OUTPUT_RANKINGS_FOLDER = Path("rankings")
-    START_DAY = datetime.strptime("20250407", "%Y%m%d")
-    END_DAY = datetime.strptime("20250411", "%Y%m%d")
+    START_DAY = datetime.strptime("20250428", "%Y%m%d")
+    END_DAY = datetime.strptime("20250502", "%Y%m%d")
     RANKING_MODEL = "claude-sonnet-4-20250514"
     RATE_LIMIT_SECONDS = 5
     ###############################
