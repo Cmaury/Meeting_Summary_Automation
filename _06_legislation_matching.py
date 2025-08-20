@@ -6,8 +6,8 @@ def main():
     ######## CONFIGURATION ########
     AGENDA_SEGMENTS_FOLDER = Path("agenda_segments")
     LEGISLATION_FOLDER = Path("legislations")
-    START_DAY = datetime.strptime("20250428", "%Y%m%d")
-    END_DAY = datetime.strptime("20250502", "%Y%m%d")
+    START_DAY = datetime.strptime("20250505", "%Y%m%d")
+    END_DAY = datetime.strptime("20250509", "%Y%m%d")
     ###############################
 
     match_legislation_to_agenda_segments(AGENDA_SEGMENTS_FOLDER, LEGISLATION_FOLDER, START_DAY, END_DAY)

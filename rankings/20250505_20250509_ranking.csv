@@ -1,0 +1,56 @@
+rank,label,headline,score_mu,score_sigma,score_95ci
+1,H50,Pittsburgh City Council voted to hold a major zoning overhaul for public hearing that would let neighborhoods choose to require affordable housing in new developments of 20 or more units.,48.76,2.52,4.94
+2,H35,"Pittsburgh City Council approves zoning changes that cut minimum lot sizes by up to 2,000 square feet to allow smaller residential properties.",44.28,1.92,3.75
+3,H1,Pittsburgh City Council discusses critical fleet crisis as half of emergency vehicles exceed recommended age and mileage limits.,42.83,2.75,5.4
+4,H43,Pittsburgh City Council extends emergency declaration for 30 days following April 29 storm that caused widespread power outages and tree damage.,42.39,1.81,3.55
+5,H13,Pittsburgh City Council extends emergency declaration until May 30 following deadly April 29 thunderstorm.,41.88,1.87,3.66
+6,H39,City council approves meeting to review Duquesne Light's response to severe storm that left residents without power for over a week.,40.92,1.72,3.38
+7,H8,City council hears public comments supporting minimum lot size reform to address Pittsburgh's housing affordability crisis.,40.02,1.74,3.42
+8,H47,"Pittsburgh City Council approves moving $647,228 between city departments to pay for new union contracts for crossing guards, park workers, and other city employees.",39.99,1.73,3.38
+9,H42,City council hears public comments supporting a bill to allow taller native plants in yards and complaints about police treatment of homeless people.,38.59,1.68,3.3
+10,H16,"Pittsburgh City Council refers $690,000 Liberty Avenue safety project land acquisition plan to committee for review.",36.73,1.59,3.12
+11,H55,City council schedules future hearing on emergency response and burying power lines after recent outages.,36.54,1.6,3.14
+12,H44,"Pittsburgh City Council approves paying the Catholic Diocese $168,500 in legal fees over two years after losing a federal court case.",36.48,1.56,3.06
+13,H48,"City council approves invoices totaling over $50,000 including $29,500 in Dick's Sporting Goods grants for local sports programs.",35.17,1.57,3.08
+14,H9,Pittsburgh City Council fixes annual payment amounts in $5 million workers' compensation contract with UPMC without changing total cost.,34.9,1.54,3.02
+15,H10,Pittsburgh City Council refers resolution requiring Pittsburgh Water to pay all costs for utility work on Liberty Avenue safety project to committee.,34.63,1.5,2.93
+16,H12,City Council refers resolution to committee that would let Pittsburgh Water pay all costs for utility work on Penn Avenue Phase 2 project.,34.54,1.47,2.89
+17,H29,"Pittsburgh City Council approves $750,000 annual contracts with five companies to provide special events services for city departments over three years.",34.13,1.5,2.94
+18,H51,"Pittsburgh City Council approves $495,700 contract with Forrester Research to provide cybersecurity and technology advice over three years.",33.39,1.51,2.97
+19,H33,Pittsburgh City Council approves free access to Riverlife's new public programming barge at Allegheny Landing Dock.,33.23,1.49,2.93
+20,H32,Pittsburgh City Council approves temporary construction easements on city property for Smithfield Street repairs at no cost to the city.,33.19,1.5,2.94
+21,H11,Pittsburgh City Council refers resolution to committee that would make Pittsburgh Water pay all costs for utility work on Smithfield Street Phase 1 project.,32.62,1.45,2.84
+22,H17,Pittsburgh City Council refers resolution to committee that would let Duquesne Light pay all costs for utility work on Smithfield Street project.,31.56,1.46,2.87
+23,H18,Pittsburgh City Council accepts dedication of street portions in Larimer and East Liberty neighborhoods at no cost to the city.,29.05,1.44,2.83
+24,H49,"City council approves P-card expenses including over $5,000 in EMS reimbursements to Ford City Hose Company.",28.91,1.49,2.92
+25,H34,City council accepts land use committee's positive recommendation on unspecified development proposal.,28.77,1.48,2.9
+26,H38,Pittsburgh City Council approves sewage plan revision for Hermitage Street development with four new sewer connections.,28.13,1.47,2.88
+27,H36,Pittsburgh City Council approves loaning city-owned Stephen Foster statue to Museum of Contemporary Art at no cost in 7-1 vote.,28.05,1.5,2.94
+28,H20,Pittsburgh City Council delays vote on Megan Leitch's appointment to water board pending interview process.,28.02,1.46,2.86
+29,H52,Pittsburgh City Council approves sewage plan revision for First and Market Apartments development at 100 First Avenue.,27.73,1.49,2.91
+30,H24,Pittsburgh City Council receives annual report on Mobility Enhancement District spending through 2024.,27.3,1.46,2.86
+31,H54,"Pittsburgh City Council approves paying $48,400 for first half of 2025 membership dues to Southwestern Pennsylvania Commission.",26.76,1.49,2.93
+32,H30,Pittsburgh City Council approves new rules creating a backup chain of command when the president and vice president are both absent from meetings.,26.53,1.48,2.9
+33,H7,"Pittsburgh City Council declares May 31st as ""Pittsburgh Pollinator Day"" to promote pollinator gardens and habitat protection.",25.03,1.49,2.92
+34,H31,City council accepts public works committee's positive recommendation on unspecified infrastructure matter.,24.97,1.47,2.88
+35,H21,Pittsburgh City Council delays vote on Jordan Fischbach's water board appointment pending interview.,23.96,1.5,2.93
+36,H46,"Pittsburgh City Council approves $3,231 payment to settle claim for property damage caused by police vehicle.",23.35,1.54,3.02
+37,H19,"Pittsburgh City Council refers resolution to rename Boundary Street Park as ""Oakland DIY Skatepark"" to committee for public hearing.",22.77,1.51,2.96
+38,H14,"Pittsburgh City Council approves $8,971 settlement payment to driver whose car was damaged in crash with police vehicle.",22.75,1.52,2.98
+39,H53,Pittsburgh City Council approves sewer connection plan for new apartment building at 135 51st Street.,22.67,1.53,3.0
+40,H25,City council receives and files 2024 annual financial report from city controller.,21.76,1.58,3.1
+41,H27,"Pittsburgh City Council approves sale of vacant lot on Itin Street for $3,755 to East Side Property company.",21.18,1.59,3.12
+42,H26,City council accepts finance committee's positive recommendation on Bill 1793.,19.74,1.57,3.07
+43,H5,"Pittsburgh City Council declares May 3, 2025 as ""Pittsburgh Parks Conservancy's Spring Hat Luncheon Day"" to honor the group's park restoration work.",19.44,1.66,3.26
+44,H28,"Pittsburgh City Council approves paying the New Pittsburgh Courier $6,158 for legal ads related to quiet title actions.",18.6,1.7,3.33
+45,H45,"City council approves $5,625 payment to woman whose parked car was damaged by city garbage truck.",18.23,1.73,3.39
+46,H6,"Pittsburgh City Council declares May 6, 2025 as ""Sheree Thomas Day"" to honor the construction business owner who won Pennsylvania's Small Business Person of the Year award.",17.94,1.77,3.48
+47,H15,"Pittsburgh City Council approves $3,493 settlement for property damage caused by city garbage truck.",17.53,1.83,3.59
+48,H23,City council approves acting pay requests for Paul Scott and Cydney Cooper from the mayor's office.,17.07,1.84,3.61
+49,H40,City council schedules executive session on two bills involving litigation and adjourns meeting.,14.47,2.01,3.94
+50,H4,City council votes to change their meeting agenda.,14.1,1.94,3.81
+51,H37,City council receives and files committee report with positive recommendation.,12.12,2.15,4.21
+52,H22,City Council receives weekly grants office status update and files it without discussion.,10.17,2.36,4.62
+53,H2,Pittsburgh City Council begins meeting with eight members present and one absent.,8.75,2.37,4.64
+54,H41,City council begins meeting with nine members present for roll call.,6.73,2.65,5.2
+55,H3,City council opens meeting with Pledge of Allegiance and moment of silence.,6.53,2.67,5.24
