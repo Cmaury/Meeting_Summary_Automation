@@ -10,8 +10,8 @@ def main():
     ######## CONFIGURATION ########
     INPUT_URLS_FOLDER = Path("__input_legistar_urls")
     OUTPUT_RAW_AGENDA_FOLDER = Path("agendas_raw")
-    START_DAY = datetime.strptime("20250428", "%Y%m%d")
-    END_DAY = datetime.strptime("20250502", "%Y%m%d")
+    START_DAY = datetime.strptime("20250505", "%Y%m%d")
+    END_DAY = datetime.strptime("20250509", "%Y%m%d")
     LINK_ID = "ctl00_ContentPlaceHolder1_hypMinutes"
     ###############################
 
