@@ -7,8 +7,8 @@ def main():
     ######## CONFIGURATION ########
     INPUT_TRANSCRIPT_SEGMENTS_FOLDER = Path("transcript_segments")
     INPUT_AGENDA_SEGMENTS_FOLDER = Path("agenda_segments")
-    START_DAY = datetime.strptime("20250505", "%Y%m%d")
-    END_DAY = datetime.strptime("20250509", "%Y%m%d")
+    START_DAY = datetime.strptime("20250512", "%Y%m%d")
+    END_DAY = datetime.strptime("20250516", "%Y%m%d")
     ###############################
 
     combine_all_segments_in_folder(INPUT_TRANSCRIPT_SEGMENTS_FOLDER, INPUT_AGENDA_SEGMENTS_FOLDER, START_DAY, END_DAY)

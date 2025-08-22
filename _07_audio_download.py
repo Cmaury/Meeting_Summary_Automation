@@ -7,8 +7,8 @@ def main():
     ######## CONFIGURATION ########
     INPUT_YT_LINK_FOLDER = Path("__input_youtube_urls")
     OUTPUT_AUDIO_FOLDER = Path("audios")
-    START_DAY = datetime.strptime("20250505", "%Y%m%d")
-    END_DAY = datetime.strptime("20250509", "%Y%m%d")
+    START_DAY = datetime.strptime("20250512", "%Y%m%d")
+    END_DAY = datetime.strptime("20250516", "%Y%m%d")
     ###############################
 
     process_txt_files(INPUT_YT_LINK_FOLDER, OUTPUT_AUDIO_FOLDER, START_DAY, END_DAY)
