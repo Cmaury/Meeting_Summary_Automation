@@ -7,8 +7,8 @@ def main():
     ######## CONFIGURATION ########
     INPUT_RAW_AGENDA_FOLDER = Path("agendas_raw")
     OUTPUT_PROCESSED_AGENDA_FOLDER = Path("agendas_processed")
-    START_DAY = datetime.strptime("20250505", "%Y%m%d")
-    END_DAY = datetime.strptime("20250509", "%Y%m%d")
+    START_DAY = datetime.strptime("20250512", "%Y%m%d")
+    END_DAY = datetime.strptime("20250516", "%Y%m%d")
     ###############################
 
     process_agendas(INPUT_RAW_AGENDA_FOLDER, OUTPUT_PROCESSED_AGENDA_FOLDER, START_DAY, END_DAY)

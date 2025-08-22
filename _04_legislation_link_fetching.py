@@ -11,8 +11,8 @@ def main():
     ######## CONFIGURATION ########
     INPUT_URL_FOLDER = Path("__input_legistar_urls")
     OUTPUT_LEGISLATION_FOLDER = Path("legislations")
-    START_DAY = datetime.strptime("20250505", "%Y%m%d")
-    END_DAY = datetime.strptime("20250509", "%Y%m%d")
+    START_DAY = datetime.strptime("20250512", "%Y%m%d")
+    END_DAY = datetime.strptime("20250516", "%Y%m%d")
     TABLE_ID = "ctl00_ContentPlaceHolder1_gridMain_ctl00"
     ###############################
 
