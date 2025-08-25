@@ -15,8 +15,8 @@ def main():
     CLAUDE_KEY = os.getenv("CLAUDE_KEY")
     INPUT_PROCESSED_AGENDA_FOLDER = Path("agendas_processed")
     OUTPUT_AGENDA_SEGMENTS_FOLDER = Path("agenda_segments")
-    START_DAY = datetime.strptime("20250512", "%Y%m%d")
-    END_DAY = datetime.strptime("20250516", "%Y%m%d")
+    START_DAY = datetime.strptime("20250519", "%Y%m%d")
+    END_DAY = datetime.strptime("20250523", "%Y%m%d")
     SEGMENTATION_MODEL = "claude-3-5-haiku-20241022"
     ################################
 

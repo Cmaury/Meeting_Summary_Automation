@@ -16,8 +16,8 @@ def main():
     INPUT_TRANSCRIPT_FOLDER = Path("transcripts")
     INPUT_AGENDA_SEGMENTS_FOLDER = Path("agenda_segments")
     OUTPUT_TRANSCRIPT_SEGMENTS_FOLDER = Path("transcript_segments")
-    START_DAY = datetime.strptime("20250512", "%Y%m%d")
-    END_DAY = datetime.strptime("20250516", "%Y%m%d")
+    START_DAY = datetime.strptime("20250519", "%Y%m%d")
+    END_DAY = datetime.strptime("20250523", "%Y%m%d")
     SEGMENTATION_MODEL = "claude-3-7-sonnet-20250219"
     ################################
 

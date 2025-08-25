@@ -1,0 +1,53 @@
+rank,label,headline,score_mu,score_sigma,score_95ci
+1,H46,Pittsburgh City Council approves $1.5 million contract with Auberle to provide homeless shelter services through federal HOME-ARP program.,47.3,1.92,3.77
+2,H50,Pittsburgh City Council approves $1.7 million federal grant to build field house and amphitheater in Homewood Park.,45.33,1.83,3.58
+3,H14,Pittsburgh City Council creates task force to find long-term funding solutions for the cash-strapped Land Bank facing budget shortfalls after 2026.,44.0,1.82,3.57
+4,H8,Pittsburgh City Council refers resolution to committee that would allow ambulances to carry blood transfusion supplies through partnerships with UPMC and Vitalant.,42.88,1.88,3.68
+5,H51,"Pittsburgh City Council approves sale of Hill District land at 2829 Bedford Avenue to Housing Authority for $237,000.",42.68,1.69,3.31
+6,H22,"Pittsburgh City Council approves spending up to $690,000 to buy land and temporary access rights for Liberty Avenue safety improvements.",41.76,1.63,3.2
+7,H7,City council hears dozens of residents demand the city sell Manchester farm property to urban farmer Ebony Evans after she was told her application would be rejected.,41.1,1.8,3.52
+8,H26,Pittsburgh City Council unanimously approved fixing the yearly payment amounts in a $5 million workers' compensation contract with UPMC WorkPartners.,41.08,1.62,3.17
+9,H42,"Pittsburgh City Council approves $583,100 grant to fund police auto theft squad detectives and equipment.",40.11,1.6,3.14
+10,H12,"Pittsburgh City Council cuts South 21st Street project grant from $1 million to $250,000 and accepts reduced state funding.",39.65,1.58,3.11
+11,H28,Pittsburgh City Council approves deal requiring Pittsburgh Water to pay all costs for utility work on Liberty Avenue safety project.,39.22,1.56,3.05
+12,H24,Pittsburgh City Council approves taking over three streets in Larimer and East Liberty neighborhoods at no cost to the city.,39.16,1.53,3.01
+13,H30,Pittsburgh City Council approves deal requiring Pittsburgh Water to pay all costs for utility work on Penn Avenue Phase 2 project.,38.0,1.55,3.04
+14,H48,Pittsburgh City Council approves deal with transit agency to build new public steps connecting Hancock Street to Herron Avenue in the 6th Ward.,37.04,1.56,3.05
+15,H23,Pittsburgh City Council approves deal requiring Duquesne Light to pay all costs for utility work on Smithfield Street Phase 1 project.,36.97,1.5,2.94
+16,H31,City council members agree to hold additional meetings to resolve dispute between urban farmer and affordable housing developer over Manchester land use.,36.78,1.52,2.98
+17,H29,Pittsburgh City Council approves deal requiring Pittsburgh Water to pay all costs for utility work on Smithfield Street Phase 1 project.,35.21,1.49,2.93
+18,H10,Pittsburgh City Council withdrew a resolution that would have sold two Penn Avenue lots to the Urban Redevelopment Authority for $1.,34.46,1.46,2.86
+19,H13,Pittsburgh City Council approves Neighborhood Academy's request to build additions to its school on North Aiken Avenue.,34.16,1.46,2.85
+20,H49,Pittsburgh City Council approves sewer connection plan for new Troy Hill apartment development at 1300 Gardner Street.,33.52,1.54,3.01
+21,H36,City council hears public comments about voting verification concerns and housing security issues but takes no action.,33.29,1.5,2.94
+22,H44,"Pittsburgh City Council approves $30,000 contract with West Virginia company to buy police dogs over three years.",33.0,1.52,2.99
+23,H43,"Pittsburgh City Council approves $30,000 contract to buy three police dogs over three years from German Shepherd breeder.",33.0,1.51,2.97
+24,H16,Pittsburgh City Council receives quarterly financial report showing city performance through March 2025.,32.02,1.44,2.83
+25,H52,"Pittsburgh City Council approves sale of vacant lot on McClarren Street to Pittsburgh Land Bank for $1,400.",30.91,1.55,3.04
+26,H45,Pittsburgh City Council approves free easement deal with Duquesne Light to install utility pole on city property for steps project.,30.61,1.54,3.02
+27,H21,City council accepts public works committee's positive recommendation on unspecified infrastructure matter.,29.66,1.51,2.95
+28,H39,"City council approves $35,000 in invoices including police K-9 medical care, equipment repairs, and staff reimbursements.",29.5,1.54,3.02
+29,H37,"Pittsburgh City Council approves transferring $10,000 from council salaries to city clerk's office for professional services.",29.37,1.51,2.97
+30,H17,City Council withdraws Bill 1848 from introduction after sponsor fails to attend meeting.,28.5,1.48,2.9
+31,H19,"Pittsburgh City Council approves $8,971 settlement payment to driver whose vehicle was damaged in crash with police car.",28.3,1.49,2.92
+32,H38,"Pittsburgh City Council approves paying law firm Dickie McCamey & Chilcote up to $12,503 for one-time legal services.",26.39,1.59,3.12
+33,H11,"Pittsburgh City Council approves paying Cohen Law Group up to $8,247 for legal services in a lawsuit.",26.06,1.53,3.0
+34,H18,City council approves Finance and Law Committee's recommendations from May 14th meeting.,25.81,1.55,3.04
+35,H47,"City council approves $16,000 sponsorship deal with Clearview Federal Credit Union for holiday gingerbread display and tree lighting ceremonies through 2026.",25.55,1.65,3.23
+36,H20,"Pittsburgh City Council approves $3,493 payment to settle damage claim after city garbage truck hit rental property.",25.33,1.62,3.17
+37,H27,City council accepts committee's positive recommendation on intergovernmental and educational affairs.,24.82,1.66,3.26
+38,H6,"Pittsburgh City Council declares May 18-24, 2025 as National Public Works Week to honor city workers.",24.0,1.64,3.22
+39,H5,"Pittsburgh City Council declares May 3, 2025 as ""Mrs. Joan Smith Day"" to honor longtime Knoxville community leader who died at age 90.",23.18,1.66,3.25
+40,H25,City council approves human resources committee's May 14 report with positive recommendation.,22.55,1.82,3.57
+41,H40,City council approves $152 transfer within Animal Care and Control budget to buy computer equipment.,22.01,1.83,3.59
+42,H9,"Pittsburgh City Council refers $6,198 resolution to extend City Channel video equipment warranty to committee for review.",19.84,1.96,3.83
+43,H4,"Pittsburgh City Council declares May 17th as ""City Theatre Day"" to honor the theater company's 50th anniversary.",18.77,1.85,3.63
+44,H41,City Council approves P-card purchases for the week of May 6-12.,16.81,2.23,4.38
+45,H3,City council votes to change their meeting agenda.,16.79,1.91,3.74
+46,H15,City Council receives weekly grants office status update from budget director.,15.38,2.44,4.77
+47,H1,Pittsburgh City Council begins regular meeting with nine members present for May 19th session.,12.62,2.25,4.41
+48,H2,City council holds moment of silence for city clerk's father who died yesterday.,10.67,2.46,4.82
+49,H35,Pittsburgh City Council holds committee meeting with eight members present.,10.63,2.57,5.04
+50,H33,City council approves meeting minutes and adjourns.,8.6,2.88,5.64
+51,H34,City council ends meeting.,8.46,2.9,5.69
+52,H32,I cannot write a headline because there is no transcript content available to report on what the council actually did regarding excusing absent members.,3.64,3.15,6.18

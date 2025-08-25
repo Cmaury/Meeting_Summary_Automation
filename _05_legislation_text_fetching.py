@@ -1,10 +1,12 @@
 import pandas as pd
 from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
+from webdriver_manager.chrome import ChromeDriverManager
 from pathlib import Path
 import time
 from datetime import datetime
@@ -13,8 +15,8 @@ from datetime import datetime
 def main():
     ######## CONFIGURATION ########
     INPUT_LEGISLATION_FOLDER = Path("legislations")
-    START_DAY = datetime.strptime("20250512", "%Y%m%d")
-    END_DAY = datetime.strptime("20250516", "%Y%m%d")
+    START_DAY = datetime.strptime("20250519", "%Y%m%d")
+    END_DAY = datetime.strptime("20250523", "%Y%m%d")
     TAB_XPATH = '//li[contains(@class, "rtsLI") and contains(@class, "rtsLast")]//span[contains(@class, "rtsTxt") and text()="Text"]/ancestor::li'
     TEXT_ID = "ctl00_ContentPlaceHolder1_pageText"
     ###############################
@@ -25,7 +27,8 @@ def main():
     chrome_options.add_argument("--disable-gpu")
     chrome_options.add_argument("--window-size=1920,1080")
 
-    driver = webdriver.Chrome(options=chrome_options)
+    # use webdriver-manager to auto-handle driver
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
 
     fetch_text(INPUT_LEGISLATION_FOLDER, START_DAY, END_DAY, TAB_XPATH, TEXT_ID, driver)
 
@@ -51,7 +54,6 @@ def fetch_text(input_folder: Path, start_day: datetime, end_day: datetime, tab_x
             if not (start_day <= meeting_datetime <= end_day):
                 continue
 
-            
             print(f"processing file: {csv_file}")
             df = pd.read_csv(csv_file)
 
@@ -71,7 +73,6 @@ def fetch_text(input_folder: Path, start_day: datetime, end_day: datetime, tab_x
                     tab_element = wait.until(EC.element_to_be_clickable((By.XPATH, tab_xpath)))
                     tab_element.click()
 
-
                     # check and access element containing text
                     content_div = wait.until(EC.visibility_of_element_located((By.ID, text_id)))
                     text_content = content_div.text.strip()
@@ -84,7 +85,6 @@ def fetch_text(input_folder: Path, start_day: datetime, end_day: datetime, tab_x
                             print(f"    Found full text link, navigating to {full_text_url}")
                             driver.get(full_text_url)
 
-                
                             content_div = wait.until(EC.visibility_of_element_located((By.ID, text_id)))
                             text_content = content_div.text.strip()
                     except (TimeoutException, NoSuchElementException):
@@ -99,8 +99,7 @@ def fetch_text(input_folder: Path, start_day: datetime, end_day: datetime, tab_x
                     # default value
                     texts.append("NO_LEGISLATION")
 
-                time.sleep(1) 
-
+                time.sleep(1)
 
             df["text"] = texts
             df.to_csv(csv_file, index=False)

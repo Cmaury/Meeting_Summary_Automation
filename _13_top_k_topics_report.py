@@ -8,8 +8,8 @@ def main():
     ######## CONFIGURATION ########
     K = 3
     OUTPUT_FOLDER = Path("_final_outputs")
-    START_DAY = datetime.strptime("20250512", "%Y%m%d")
-    END_DAY = datetime.strptime("20250516", "%Y%m%d")
+    START_DAY = datetime.strptime("20250519", "%Y%m%d")
+    END_DAY = datetime.strptime("20250523", "%Y%m%d")
     ###############################
 
     save_top_k_headlines_and_summaries(K, OUTPUT_FOLDER, START_DAY, END_DAY)

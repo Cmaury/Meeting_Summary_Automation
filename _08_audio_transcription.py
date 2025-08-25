@@ -11,8 +11,8 @@ def main():
     ######## CONFIGURATION ########
     INPUT_AUDIO_FOLDER = Path("audios")
     OUTPUT_TRANSCRIPT_FOLDER = Path("transcripts")
-    START_DAY = datetime.strptime("20250512", "%Y%m%d")
-    END_DAY = datetime.strptime("20250516", "%Y%m%d")
+    START_DAY = datetime.strptime("20250519", "%Y%m%d")
+    END_DAY = datetime.strptime("20250523", "%Y%m%d")
     ASR_MODEL = whisper.load_model("large")
     PUNCT_MODEL = PunctuationModel()
     ###############################
